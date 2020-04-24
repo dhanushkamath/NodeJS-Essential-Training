@@ -27,6 +27,7 @@ console.log(process.argv);
 const [, , firstName, lastName] = process.argv;
 
 // Note that backtick is used and not single quotation below
+// this is called Template String.
 console.log(`Without flags : ${firstName} ${lastName}`);
 
 // Providing flags with CL arguments.

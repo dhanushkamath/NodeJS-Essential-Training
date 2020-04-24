@@ -11,7 +11,8 @@ console.log("Hello world")
 global.console.log("Hello World")
 
 // parsing the filename from the full path
-// Note that backtick is used not single quotation below
+// Note that backtick is used and not single quotation below
+// this is called Template String.
 console.log(`The file name is ${path.basename(__filename)}`);
 
 console.log(__dirname);
